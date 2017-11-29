@@ -1,0 +1,19 @@
+TASKS
+
+1. Creation of Tables
+	- CUSTOMERS
+		>Derije
+		>Siapno
+		>Faustino
+	- LOANS
+		>Sese
+		>Ibalio
+		>Gayaso
+	- COMAKERS
+		>Dong-e
+		>Espejo
+		>Rocafort
+	- PAYMENTS
+		>Galising
+		>Uy
+		>Velasco

@@ -1,19 +1,19 @@
 TASKS
 
-1. Creation of Tables
-	- CUSTOMERS
+1. APPLICATION OF CRUD TO TABLES (DB PROGRAMMING)
+	- SONGS
 		>Derije
 		>Siapno
 		>Faustino
-	- LOANS
+	- ALBUM
 		>Sese
 		>Ibalio
 		>Gayaso
-	- COMAKERS
+	- SONG_ART
 		>Dong-e
 		>Espejo
 		>Rocafort
-	- PAYMENTS
+	- ARTISTS
 		>Galising
 		>Uy
 		>Velasco

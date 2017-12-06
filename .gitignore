@@ -1,0 +1,4 @@
+/Album/build/
+*.properties
+*.class
+*.pdf

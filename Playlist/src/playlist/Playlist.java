@@ -55,7 +55,7 @@ public class Playlist {
         System.out.println("7. Edit an artist's information");
         System.out.println("8. Edit a song's information");
         System.out.println("9. Delete an album along with its songs");
-        System.out.println("10. Delete an artist from an artist from the list along with its songs");
+        System.out.println("10. Delete an artist from the list along with its songs");
         System.out.println("11. Delete a song from the list");
         System.out.println("12. Delete all songs of a specific genre");
         System.out.println("13. Exit");

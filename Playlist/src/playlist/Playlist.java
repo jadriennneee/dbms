@@ -67,6 +67,34 @@ public class Playlist {
             case 3:
             case 4:
             case 5:
+                //Display all songs and the albums they belong to
+                rs.beforeFirst();
+                System.out.printf("%2s %10s %21s %26s", "song id", "title", "duration", "album number\n");
+                
+                //Show table for songs
+                while (rs.next()){
+                    int songid = rs.getInt(1);
+                    String title = rs.getString("title");
+                    String duration = rs.getString("duration");
+                    int albumno = rs.getInt("album_no");
+                    
+                    System.out.printf("%-10d %-20s %25s %-15s\n", songid,
+                        title, albumno);
+                    console.close();
+                }
+                
+                //Display table for album //
+                rs.beforeFirst();
+                System.out.printf("%2s %10s %35s", "album_no", "name",
+                        "release_year\n");
+                while (rs.next()) {
+                    int album_no = rs.getInt(1);
+                    String name = rs.getString("name");
+                    int release_year = rs.getInt(3);                        
+                    System.out.printf("%-14s %-20s %10s\n", album_no,
+                            name, release_year);
+                }                
+                break;
             case 6:
             case 7:
             case 8:

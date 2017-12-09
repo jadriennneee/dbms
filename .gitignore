@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 /Album/build/
 *.properties
 *.class
 *.pdf
+=======
+/Playlist/build/
+/Playlist/dist/
+/Album/build/
+>>>>>>> master

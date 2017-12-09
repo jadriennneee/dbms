@@ -14,9 +14,11 @@ public class Playlist {
         Connection con = DriverManager.getConnection(conStr);
         System.out.println("Connection Done");
         String stSel = "SELECT * FROM songs";
+        String stSelartist = "SELECT * FROM artist";        
         Statement stmt = con.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, 
                 ResultSet.CONCUR_UPDATABLE);
         ResultSet rs = stmt.executeQuery(stSel); 
+        ResultSet rsart = stmt.executeQuery(stSelartist); 
         
         menu();
         
@@ -66,6 +68,16 @@ public class Playlist {
             case 2:
             case 3:
             case 4:
+            System.out.println("Input Artist's Screen Name: ");
+            String searchScreenName = console.nextLine();
+            int artistID = rsart.getInt(1);
+            String queryScName = rsart.getString("screen_name");
+            if(searchScreenName == queryScName){
+                
+            
+            }else 
+                System.out.print("gago");
+            
             case 5:
             case 6:
             case 7:
